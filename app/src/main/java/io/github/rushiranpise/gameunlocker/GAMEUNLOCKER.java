@@ -100,6 +100,10 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         SPOOF_PROPS.put("com.levelinfinite.sgameGlobal", new HashMap<String, String>() {{
             put("BRAND", "Xiaomi"); put("DEVICE", "Mi 13 Pro"); put("MANUFACTURER", "Xiaomi"); put("MODEL", "2210132G");
         }});
+        SPOOF_PROPS.put("com.garena.game.kgvn", new HashMap<String, String>() {{
+            put("BRAND", "Xiaomi"); put("DEVICE", "Mi 13 Pro"); put("MANUFACTURER", "Xiaomi"); put("MODEL", "2210132G");
+        }});
+        
         SPOOF_PROPS.put("com.tencent.tmgp.sgame", new HashMap<String, String>() {{
             put("BRAND", "Xiaomi"); put("DEVICE", "Mi 13 Pro"); put("MANUFACTURER", "Xiaomi"); put("MODEL", "2210132G");
         }});
@@ -133,6 +137,9 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
             put("BRAND", "OnePlus"); put("DEVICE", "OnePlus 8 PRO"); put("MANUFACTURER", "OnePlus"); put("MODEL", "IN2020");
         }});
         SPOOF_PROPS.put("com.riotgames.league.wildriftvn", new HashMap<String, String>() {{
+            put("BRAND", "OnePlus"); put("DEVICE", "OnePlus 8 PRO"); put("MANUFACTURER", "OnePlus"); put("MODEL", "IN2020");
+        }});
+        SPOOF_PROPS.put("com.miHoYo.GenshinImpact", new HashMap<String, String>() {{
             put("BRAND", "OnePlus"); put("DEVICE", "OnePlus 8 PRO"); put("MANUFACTURER", "OnePlus"); put("MODEL", "IN2020");
         }});
 
